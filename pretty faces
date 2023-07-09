@@ -1,8 +1,8 @@
 from gasp import *
 
 begin_graphics()
-for r in 100, 110:
-    Circle((300, 200), r)
+Circle((300, 200), r)
+Circle((285,210), 100)
 
 update_when('key_pressed')      
 end_graphics()
